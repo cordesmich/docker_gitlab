@@ -1,5 +1,5 @@
 # docker_gitlab
-shell commands for configure a gitlab server
+shell commands to configure a gitlab server
 
 
 
