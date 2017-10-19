@@ -25,7 +25,7 @@ Neu Starten / Nach PC neustart
 
 Anzeigen der Images
 	 sudo docker images
-Neinzeigen der laufenden Container
+Anzeigen der laufenden Container
 	sudo docker ps
 ----
 
