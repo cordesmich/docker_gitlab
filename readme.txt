@@ -23,6 +23,12 @@ Neu Starten / Nach PC neustart
 
 ----
 
+Anzeigen der Images
+	 sudo docker images
+Neinzeigen der laufenden Container
+	sudo docker ps
+----
+
 Update GITLAB
 
 To upgrade GitLab to a new version you have to:
@@ -55,6 +61,11 @@ Copy Backup:
 	sudo cp /srv/gitlab/data/backups/1493985556_2017_05_05_gitlab_backup.tar /home/cord778/docker\ readme/1493985556_2017_05_05_gitlab_backup.tar
 
 
+----
+
+Docker Image löschen
+	sudo docker rmi some-image-id
+
 
 ----------------------------------
 
@@ -77,5 +88,4 @@ sudo docker run --detach \
 --volume /srv/gitlab/logs:/var/log/gitlab \
 --volume /srv/gitlab/data:/var/opt/gitlab \
 gitlab/gitlab-ce:latest
-
 
